@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>my login details</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>put in your login credentials</h1>
+  </header>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2;
+      padding: 2;
+    }
+    header {
+      background-color: #333333;
+      color: skyblue;
+      padding: 2em 0;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #444444;
+    }
+    nav a {
+      color: greenyellow;
+      padding: 1em;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #555555;
+    }
+    section {
+      padding: 1em;
+    }
+  </style>
+  
+  <section id="login">
+    <h2>login</h2>
+    <p> put in your login credentials.</p>
+    <form action="" class="form_wrapper">
+        <div class="username_wrapper input wrapper">
+          <input
+            autocomplete="false"
+            type="username"
+            class="username"
+            id="username"
+            placeholder="username"
+          />
+        </div>
+        <div class="password wrapper input wrapper">
+          <input
+            autocomplete="false"
+            type="password"
+            class="password"
+            id="password"
+            placeholder="password"
+          />
+        </div>
+        <div class="date of birth wrapper input wrapper">
+          <input
+            autocomplete="false"
+            type="date of birth"
+            class="date of birth"
+            id="date of birth"
+            placeholder="date of birth"
+          />
+        </div>
+        <div class="email wrapper input wrapper">
+          <input autocomplete="false" type="email" class="email" id="email" placeholder="email" />
+        </div>
+
+        <button onclick="event.preventDefault()" id="login button">login</button>
+      </form>
+    </section>
+   
+    <script src="assign.js"></script>
+</body>
+</html>

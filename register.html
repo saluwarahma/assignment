@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registering area</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>register here</h1>
+    </header>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 2;
+        padding: 2;
+      }
+      header {
+        background-color: #333333;
+        color: skyblue;
+        padding: 2em 0;
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #444444;
+      }
+      nav a {
+        color: greenyellow;
+        padding: 1em;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+      nav a:hover {
+        background-color: #555555;
+      }
+      section {
+        padding: 1em;
+      }
+    </style>
+    <section>
+      <h2>project</h2>
+      <p>some of my projects are form, portfolio.</p>
+
+      <form action="" class="form_wrapper">
+        <div class="username_wrapper input wrapper">
+          <input
+            autocomplete="false"
+            type="username"
+            class="username"
+            id="username"
+            placeholder="username"
+          />
+        </div>
+        <div class="email wrapper input wrapper">
+          <input
+            autocomplete="false"
+            type="email"
+            class="email"
+            id="email"
+            placeholder="email"
+          />
+        </div>
+
+        <div class="date_of_birth wrapper input wrapper">
+          <input
+            autocomplete="false"
+            type="date_of_birth"
+            class="date_of_birth"
+            id="date_of_birth"
+            placeholder="date_of_birth"
+          />
+        </div>
+        <div class="password wrapper input wrapper">
+          <input
+            autocomplete="false"
+            type="password"
+            class="password"
+            id="password"
+            placeholder="password"
+          />
+        </div>
+        <div class="comfirm_password wrapper input wrapper">
+          <input
+            autocomplete="false"
+            type="comfirm_password"
+            class="comfirm_password"
+            id="comfirm_password"
+            placeholder="comfirm_password"
+          />
+        </div>
+        <div class="phone_number wrapper input wrapper">
+          <input
+            autocomplete="false"
+            type="phone_number"
+            class="phone_number"
+            id="phone_number"
+            placeholder="phone_number"
+          />
+        </div>
+
+        <button onclick="log_user_details(event)" id="register button">
+          register
+        </button>
+      </form>
+    </section>
+    <script src="assign.js"></script>
+  </body>
+</html>
